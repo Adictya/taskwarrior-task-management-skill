@@ -7,7 +7,7 @@
     "task-agent": "./dist/task-agent.js"
   },
   "scripts": {
-    "build": "bun build ./index.ts --outfile ./dist/task-agent.js --target=bun && chmod +x ./dist/task-agent.js"
+    "build": "bun build ./index.ts --outfile ./dist/task-agent.js --target=node && chmod +x ./dist/task-agent.js"
   },
   "devDependencies": {
     "@types/bun": "latest"
